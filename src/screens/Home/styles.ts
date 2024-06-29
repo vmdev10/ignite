@@ -49,4 +49,8 @@ export const styles = StyleSheet.create({
   containerList: {
     marginVertical: 5,
   },
+  listEmptyText: {
+    color: colors.lightColor,
+    textAlign: 'center',
+  },
 });
