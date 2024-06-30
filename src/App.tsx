@@ -1,14 +1,14 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
+import {StatusBar, View} from 'react-native';
 
-import {Home} from './src/screens/Home';
+import {Home} from './screens/Home';
 
 function App(): React.JSX.Element {
   return (
-    <>
+    <View>
       <StatusBar barStyle="light-content" />
       <Home />
-    </>
+    </View>
   );
 }
 
